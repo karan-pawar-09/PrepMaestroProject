@@ -1,0 +1,193 @@
+body {
+  height: 100vh;
+  font-size: 18px;
+  position: relative;
+  background: rgba(228, 251, 255, 0.3);
+}
+h5 {
+  padding-top: 5px;
+}
+.option p {
+  margin-left: 2%;
+}
+.divider {
+  margin: 0% 0% 0% 0%;
+  padding: 2% 2% 2% 2%;
+}
+.mynavbar {
+  background-color: #d8e3e7;
+}
+.questions {
+  height: 28vh;
+  background-color: d;
+}
+.cont {
+  padding: 2%;
+}
+.temp {
+  background: red;
+}
+.selectedOption {
+  background: rgba(81, 196, 211, 0.3);
+}
+.option:hover {
+  background: rgba(235, 233, 233, 0.48);
+}
+.selectedOption:hover {
+  background: rgba(81, 196, 211, 0.3);
+}
+.option {
+  height: 5vh;
+  width: 90%;
+  margin: 8px 10px 5px 10px;
+  padding: 1vh;
+  border-radius: 17px;
+}
+.toolbar {
+  background: rgba(25, 67, 90, 0.3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+}
+.previus {
+  position: absolute;
+  color: white;
+  border-style: none;
+  background-color: rgba(57, 62, 70, 0.7);
+  border-color: #393e46;
+  left: 6%;
+}
+.next {
+  position: absolute;
+  background-color: rgba(57, 62, 70, 0.7);
+  border-color: #393e46;
+  border-style: none;
+  color: white;
+  left: 33%;
+}
+.previus:hover {
+  background-color: rgba(57, 62, 70, 0.7);
+  border-color: #393e46;
+  color: white;
+}
+.next:hover {
+  background-color: rgba(57, 62, 70, 0.7);
+  border-color: #393e46;
+  color: white;
+  border-style: none;
+}
+.submit {
+  position: absolute;
+  right: 8%;
+}
+.btn {
+  padding: 5px 1vh;
+}
+.questionPallete {
+  position: relative;
+  height: 50px;
+  background: rgba(135, 173, 183,0.6);
+}
+.qindicator {
+  margin-top: 7%;
+  margin-left: 2px;
+  text-align: center;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background: white;
+  border-radius: 35%;
+  color: black;
+}
+.questionDis {
+  padding: 10px;
+  padding-top: 0px;
+}
+.changesize {
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+  margin: 0%;
+}
+.card {
+  background: rgba(196, 236, 242,0.7) ;
+  border-radius: 10px;
+  border-style: none;
+}
+.btn.btn-primary.questionbuttn {
+  margin-top: 2%;
+  background:rgb(94, 103, 110);
+  border-style: none;
+}
+.livetime {
+  right: 2%;
+  position: absolute;
+  font-weight: 800;
+  top: 20%;
+}
+.nos,
+.mobilenos {
+  position: absolute;
+  left: 2%;
+}
+.mobilenos {
+  top: 10%;
+}
+.solved {
+  background: #3abb9c;
+  color: white;
+}
+.solvedReview {
+  background: yellow;
+  color: black;
+}
+.notSolved {
+  background: #ed5f5f;
+  color: white;
+}
+.notSolvedReview {
+  background-color: #5960b7;
+  color: white;
+}
+.checkbox {
+  background: #6c757d;
+  color: white;
+}
+.check {
+  margin-left: 5%;
+}
+.check:hover {
+  background: white;
+  color: #393e46;
+  border-style: none;
+}
+.checkbox:hover {
+  background: #6c757d;
+  color: white;
+}
+.secondCard {
+    z-index: -1;
+}
+.example {
+  margin-top: 3%;
+  margin-left: 2px;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 35%;
+  color:black;
+}
+.dex {
+  margin-top: 3%;
+  margin-left: 2px;
+}
+.carda {
+  padding: 2% 2% 2% 10%;
+  background:rgba(196, 236, 242,0.4) ;
+  border-radius: 15px;
+}
+.collapse {
+  border-style: none;
+}
